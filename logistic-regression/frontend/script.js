@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const loader = document.getElementById('loader');
 
     // API Configuration for Logistic Regression
-    const API_URL = 'http://localhost:8001';
+    const API_URL = 'https://ml-lab-01-bemnet-bisrat-ugr-1559-15-klss.onrender.com';
 
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
@@ -69,4 +69,5 @@ document.addEventListener('DOMContentLoaded', function() {
             descriptionText.textContent = "Based on statistical analysis, the patient shows a low probability of diabetes.";
         }
     }
+
 });
